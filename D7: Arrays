@@ -1,0 +1,54 @@
+Task
+Given an array, A of N  integers, print A elements in reverse order as a single line of space-separated numbers.
+Input Format
+
+The first line contains an integer, N (the size of our array).
+The second line contains N space-separated integers that describe array A's elements.
+
+Output Format
+
+Print the elements of array  A in reverse order as a single line of space-separated numbers.
+
+Sample Input
+
+4
+1 4 3 2
+Sample Output
+
+2 3 4 1
+
+Code:
+
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        Scanner scan = new Scanner(System.in);
+
+        int n = scan.nextInt();
+        int counter;
+        int[] array = new int[n];
+        for(counter=0;counter<n;counter++)
+        {
+            array[counter] = scan.nextInt();
+        }
+        for(counter=n-1;counter>=0;counter--)
+        {
+            System.out.print(array[counter]+" ");
+        }
+
+        scan.close();
+    }
+}
