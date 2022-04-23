@@ -37,3 +37,8 @@ This repository consists of the challenges, solved as a part of 30 Days of Code 
 
 ### Site Link
 https://www.hackerrank.com/domains/tutorials/30-days-of-code
+
+### 30daysOfCode
+![30daysofCode](https://github.com/Harini-Pavithra/30-Days-of-Code/blob/main/30daysofCode.PNG)
+
+![30daysofCode_Stars](https://github.com/Harini-Pavithra/30-Days-of-Code/blob/main/30daysofCode_Stars.PNG)
